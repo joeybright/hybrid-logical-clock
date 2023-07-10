@@ -1,5 +1,3 @@
 # hybrid-logical-clock
 
-An implementation of hybrid logical clocks in Elm.
-
-You can view the original paper [here](https://cse.buffalo.edu/tech-reports/2014-04.pdf).
+An implementation of hybrid logical clocks in Elm. Hybrid logical clocks are useful when you want some guarentees when it comes to an ordering of events that happen on different machines where the machine clock time is not reliable. Like most clock algorithms, hybrid logical clocks are not a fullproof solution to handle time in distributive computing. For more information on the benefits and drawbacks of hybrid logical clocks, can view the original paper [here](https://cse.buffalo.edu/tech-reports/2014-04.pdf).
