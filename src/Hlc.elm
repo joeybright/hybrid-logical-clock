@@ -171,10 +171,6 @@ Note that the order of arguments is important! The first clock is being compared
 The returned value will indicate if the first is greater than, less than, or equal
 to, the second.
 
-For example, running:
-
-        const t = ""
-
 -}
 compare : Hlc -> Hlc -> Order
 compare (Hlc firstClock firstCount firstId) (Hlc secondClock secondCount secondId) =
